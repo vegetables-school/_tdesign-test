@@ -50,7 +50,7 @@ const submodulesArr: SubmoduleItem[] = [
   'tdesign-mobile-vue',
   'tdesign-mobile-react',
   'tdesign-flutter',
-]
+];
 
 
 /**
