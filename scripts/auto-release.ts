@@ -129,7 +129,7 @@ submodulesArr.forEach(project => {
 let START_DATE = '';
 let END_DATE = '';
 
-const today = '2024-10-01';
+const today = new Date('2024-10-01');
 
 // 获取昨天的日期并且只取年月日格式化成'yyyy-mm-dd'
 const someDaysAgo = new Date(today);
