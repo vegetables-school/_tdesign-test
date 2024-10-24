@@ -214,8 +214,8 @@ console.log('身份验证成功');
 
 try {
   octokit.rest.repos.createRelease({
-    owner: "uyarn",
-    repo: "vegetables-school/_tdesign-test",
+    owner: "vegetables-school",
+    repo: "_tdesign-test",
     tag_name: tag, // 添加缺少的 tag_name 参数
     name: title, // 可选参数，使用 title 作为发布名称
     body: output, // 可选参数，发布说明内容
